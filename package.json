@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "start" : "node index.js",
+    "server": "nodemon server.js",
+    
+    "dev" : "concurrently \npm start\" \"npm run start\""
+
+
+    
+  
   },
   "author": "",
   "license": "ISC",
